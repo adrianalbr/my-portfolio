@@ -1,9 +1,11 @@
 import React from 'react';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
+
 
 const Portfolio = () => {
     return (
         <div>
-            <h1>This is my portfolio page</h1>
+            <ProjectCard/>
         </div>
     );
 };
