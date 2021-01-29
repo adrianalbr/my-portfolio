@@ -1,0 +1,50 @@
+/* CUSTOM STYLING FOR THE MAIN BODY OF THE SITE  */
+
+::selection { 
+    background: green; 
+    color: white;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+main {
+    background-image: url("https://adrianalbr.github.io/my-portfolio/src/assets/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(171, 169, 169);
+    background-blend-mode: overlay;
+
+}
+
+.main-body-contain {
+    /* background-color: rgba(24, 24, 24, 0.65); */
+
+    background-color: #4D4D4D;
+    
+    padding-top: 1.75rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;    
+
+    min-height: 800px;
+
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h1 {
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+hr {
+    background-color: white;
+    height: 0.25px;
+
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
