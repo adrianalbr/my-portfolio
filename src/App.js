@@ -4,6 +4,7 @@ import Contact from "./containers/Contact/Contact";
 import Home from "./containers/Home/Home";
 import Portfolio from "./containers/Portfolio/Portfolio";
 import "tailwindcss/tailwind.css";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -15,9 +16,8 @@ function App() {
          <Route path="/Contact" component={Contact}/>
          <Route path="/Portfolio" component={Portfolio}/>
          <Route path="/" component={Home}/>
-
-
        </Switch>
+       <Footer/>
      </Router>
     </div>
   );

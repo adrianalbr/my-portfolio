@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    background-image: url("https://adrianalbr.github.io/my-portfolio/src/assets/background2.jpg");
+    background-image: url("https://github.com/adrianalbr/my-portfolio/blob/main/src/assets/background2.jpg?raw=true");
     background-position: center;
     background-size: cover;
     background-color: rgb(171, 169, 169);
@@ -47,4 +47,8 @@ hr {
 
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+}
+
+p {
+    color: whitesmoke;
 }
