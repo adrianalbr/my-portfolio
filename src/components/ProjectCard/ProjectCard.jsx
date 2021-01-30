@@ -3,15 +3,27 @@ import React from 'react';
 const ProjectCard = () => {
     return (
         <div>
-            <div className="card" style="width: 18rem;">
-            <img src="..." className="card-img-top" alt="..."/>
-            <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="/" className="btn btn-primary">Go somewhere</a>
-            </div>
-</div>
-            
+            <div className="wrapper">
+
+                <div className="aboutMe">
+                    <h1>Portfolio</h1>
+
+                    <div className="row">
+                        <div className="col-md-4">
+                            <h6>Weather dashboard</h6> <a href="https://adrianalbr.github.io/weather-dashboard">
+                            <img border="0" alt="weather" src="Assets/Images/weather.jpg" width="150" height="100"/>
+                            </a>
+                        </div>
+
+                        <div className="col-md-4">
+                            <h6>Password generator</h6> <a href="https://adrianalbr.github.io/password-generator">
+                            <img border="0" alt="password" src="Assets/Images/password.jpg" width="150" height="100"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+               
         </div>
     );
 };

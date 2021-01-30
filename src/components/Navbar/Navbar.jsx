@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom"
 import "tailwindcss/tailwind.css"
 
 const Navbar = () => {
@@ -17,9 +18,9 @@ const Navbar = () => {
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">
             {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-            <a href="src/containers/Home/Home.jsx" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-            <a href="src/containers/Portfolio/Portfolio.jsx" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Portfolio</a>
-            <a href="src/containers/Contact/Contact.jsx" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+            <NavLink to="/" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Home</NavLink>
+            <NavLink to="/Portfolio" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Portfolio</NavLink>
+            <NavLink to="/Contact" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</NavLink>
             {/* <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar</a> */}
           </div>
         </div>

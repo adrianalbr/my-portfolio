@@ -12,10 +12,9 @@ const Home = () => {
                         <h1>About Adriana</h1>
                          <br/>
                         <div className="container-xs">
-                        {/* <img src="src/assets/me.jpeg" className="rounded float-sm-left img-responsive" alt="Adriana" width="200"/> */}
                         <img
                             src="https://github.com/adrianalbr/my-portfolio/blob/main/src/assets/me.jpeg?raw=true"
-                            alt="Photo of Adriana"
+                            alt="Adriana"
                             class="img-thumbnail"
                             />
                         </div>
@@ -53,8 +52,6 @@ const Home = () => {
                         just called.
                         </p>
                     </div>
-                    <Footer/>
-
                 </div>
             </div>
             </main>
