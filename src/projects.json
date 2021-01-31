@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Music Lovers",
+      "image": "../../assets/music.jpeg",
+      "alt": "Safe Music Lovers",
+      "description": "Safe music lovers allows users to not only view music events/festivals for a desired city but also see real time COVID-19 data for the city as well. Users also have the ability to click on desired event and will be redirected to purchase tickets. We have also implemented a feature based on what the mortality rate is, a GIF is displayed to the user suggesting to either go to said event or to maybe sit it out.",
+      "link": "https://github.com/adrianalbr/Project-1"
+    },
+    {
+        "id": 2,
+        "name": "Weather Dashboard",
+        "image": "../../assets/music.jpeg",
+        "alt": "Weather Dashboard",
+        "description": "This weather dashboard that allows the user to type a city and get the current weather conditions for the day as well as the 5 day forecast. The application adds the city to the search history. When the user clicks on cities saved in the history the weather for those cities is displayed.",
+        "link": "https://github.com/adrianalbr/weather-dashboard"
+      },
+      {
+        "id": 3,
+        "name": "Football or Futbol",
+        "image": "../../assets/football-vs-soccer-ball.jpg",
+        "alt": "Football or Futbol",
+        "description": "Football or Futbol is an application designed for sports enthusiasts to compare and contrast a football player and a futbol player. Not only can they do that but they can also make the selected players go head to head in a VS game mode to obtain a winner via their stats.",
+        "link": "https://github.com/adrianalbr/football-or-futbol"
+      }
+]
