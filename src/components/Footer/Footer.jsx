@@ -18,9 +18,9 @@ const Footer = () => {
                     </a>
                     </div>
                     
-                    <a href="Assets/Images/Adriana Bonilla Ramirez - Resume 10.28.pdf" target="_blank" rel="noreferrer">
+                    {/* <a href="Assets/Images/Adriana Bonilla Ramirez - Resume 10.28.pdf" target="_blank" rel="noreferrer">
                         <i className="fa fa-codepen fa-2x" aria-hidden="true"></i>
-                    </a>
+                    </a> */}
 
                 </div>
             </div>

@@ -22,5 +22,29 @@
         "alt": "Football or Futbol",
         "description": "Football or Futbol is an application designed for sports enthusiasts to compare and contrast a football player and a futbol player. Not only can they do that but they can also make the selected players go head to head in a VS game mode to obtain a winner via their stats.",
         "link": "https://github.com/adrianalbr/football-or-futbol"
+      },
+      {
+        "id": 4,
+        "name": "Eat the Burger",
+        "image": "../../assets/Burger.png",
+        "alt": "Eat the Burger",
+        "description": "The Eat the Burger application allows the user to select a burger from the order menu and eat it or delete it. Eaten burgers move to the devoured board and can be deleted as well. The user can also enter new burgers that will populate the order board and can be eaten or deleted",
+        "link": "https://github.com/adrianalbr/burger"
+      },
+      {
+        "id": 5,
+        "name": "Password generator",
+        "image": "../../assets/password.jpg",
+        "alt": "Password generator",
+        "description": "This application helps the user to generate a strong password based on the criteria selected. The password can include upper and lower case, as well as numbers and symbols",
+        "link": "https://github.com/adrianalbr/password-generator"
+      },
+      {
+        "id": 6,
+        "name": "Employee Directory",
+        "image": "../../assets/planner.png",
+        "alt": "Employee Directory",
+        "description": "This application helps the user to create an employee directory with React. The user is be able to see cards with information for employees. The user is able to sort and search/filter.",
+        "link": "https://github.com/adrianalbr/employee-directory"
       }
 ]

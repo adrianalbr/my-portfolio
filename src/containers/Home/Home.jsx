@@ -18,7 +18,7 @@ const Home = () => {
                             />
                         </div>
                         <br/>
-                        <p>
+                        <p className="bio">
                         Greetings! Welcome to my portfolio. I have been in IT for many
                         years working on a variety of roles such as Business Analyst,
                         Project Manager, and IT Manager always implementing and directing
@@ -27,7 +27,7 @@ const Home = () => {
 
                         <br/>
 
-                        <p>
+                        <p className="bio">
                         I am excited to present to you what I have built with the
                         knowledge gained from the Georgia Tech Bootcamp coding
                         certification. This process has helped me to better understand the
@@ -37,14 +37,16 @@ const Home = () => {
 
                         <br/>
 
-                        <p>
+                        <p className="bio">
                         In my current work I manage a team of data analysts and database
                         developers across the country. After completing this certification
                         one of my goals is to to be able to understand and direct my team
                         more efficiently, as well as to personally develop solutions.
                         </p>
+                        
+                        <br/>
 
-                        <p>
+                        <p className="bio">
                         I have a few brilliant and innovative ideas that I would like to
                         bring to market now that I have the skills to develop disruptive
                         applications. Excuse me... I have to stop typing... Shark Tank

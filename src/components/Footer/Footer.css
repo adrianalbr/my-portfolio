@@ -1,0 +1,12 @@
+footer {
+    height: 4rem;
+}
+
+footer i {
+    margin: 30px 30px;
+    color: rgb(46, 53, 60);
+}
+
+footer i:hover {
+    color: green; 
+}
